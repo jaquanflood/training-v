@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  float: left;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+  color: lightblue;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo {
+  float: left;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: lightblue;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.camera {
+  background-image: url(cameraheader.jpeg);
+  font-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: lightblue;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.starter {
+  background-color: lightblue;
+  border-radius: 15px;
+  font-size: x-large;
+}
+
+.starter:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+H1 {
+  text-align: center;
+}
+
+.first img {
+  border-radius: 20px;
+  height: 300px;
+  width: 250px;
+}
+
+.first p {
+  text-align: center;
+  width: 240px;
+}
+
+.first {
+  float: left;
+  margin: 0;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  background-color: white;
+  background-size: cover;
+}
+
+.quote {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  background-color: gray;
+  float: left;
+  margin: 0;
+  padding: 0%;
+  font-family: cursive;
+  width: 100%;
+  border-radius: 30px;
+  background-size: cover;
+}
+
+.calltoaction {
+  float: left;
+  margin: 40px;
+  margin-left: 0%;
+  padding-top: 0px;
+  background-color: black;
+  width: 100%;
+  height: 75px;
+  color: lightblue;
+  border-radius: 30px;
+  padding-bottom: 120px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.signup {
+  background-color: black;
+  border-color: lightblue;
+  border-radius: 50px;
+  color: lightblue;
+  padding: 8px;
+}
+
+footer {
+  float: left;
+  background-color: black;
+  color: lightblue;
+  text-align: center;
+  background-size: cover;
+  width: 100%;
+}
